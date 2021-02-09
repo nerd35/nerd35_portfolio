@@ -305,7 +305,7 @@ grid-template-rows: 700px;
 /* Portfolio Media query */
 @media screen and (max-width: 1368px){
     .portfolio_projects {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 @media screen and (max-width: 1000px){
@@ -313,7 +313,7 @@ grid-template-rows: 700px;
         padding: 30px;
     }
     .portfolio_container h1{
-        font-size-adjust: 70px;
+        font-size: 70px;
     }
     .portfolio_main{
         grid-template-columns: 1fr;
@@ -355,6 +355,7 @@ grid-template-rows: 700px;
         margin-left: -20px;
     }
     .portfolio_projects{
+        flex-direction: column;
         padding: 32px 14px;
     }
 }
